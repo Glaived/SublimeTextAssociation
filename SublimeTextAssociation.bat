@@ -70,11 +70,16 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	assoc .sass=SublimeTextFiles
 	assoc .scss=SublimeTextFiles
 	assoc .twig=SublimeTextFiles
+	assoc .html=SublimeTextFiles
+	assoc .htm=SublimeTextFiles
+	assoc .haml=SublimeTextFiles
+	assoc .ctp=SublimeTextFiles
 
 	:: Web developpement (Back)
 	assoc .phar=SublimeTextFiles
 	assoc .php=SublimeTextFiles
 	assoc .sql=SublimeTextFiles
+	assoc .rb=SublimeTextFiles
 
 	echo.
 	echo.
@@ -82,6 +87,7 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	echo.
 	echo.
 	pause
+	exit
 ) else (
 	echo.
 	echo pathToSublimeTextExe variable is not defined
