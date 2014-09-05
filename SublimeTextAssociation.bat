@@ -87,6 +87,7 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	echo.
 	echo.
 	pause
+	exit
 ) else (
 	echo.
 	echo pathToSublimeTextExe variable is not defined
