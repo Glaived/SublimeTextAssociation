@@ -61,13 +61,17 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	assoc .htgroups=SublimeTextFiles
 	assoc .htpasswd=SublimeTextFiles
 
-	:: Web developpement (Front)
+	:: Web development (Front)
 	assoc .css=SublimeTextFiles
 	assoc .js=SublimeTextFiles
 	assoc .json=SublimeTextFiles
 	assoc .svg=SublimeTextFiles
-	assoc .less=SublimeTextFiles
+
+	:: Template engine (Front)
 	assoc .twig=SublimeTextFiles
+
+	:: Web development (Pre-Proc CSS)
+	assoc .less=SublimeTextFiles
 	assoc .sass=SublimeTextFiles
 	assoc .scss=SublimeTextFiles
 
