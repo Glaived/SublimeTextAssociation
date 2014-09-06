@@ -1,5 +1,6 @@
 @echo off
 :: The MIT License (MIT) Copyright (c) 2014 GlaiveÐ
+:: https://github.com/Glaived/SublimeTextAssociation
 setlocal enabledelayedexpansion
 :top
 
