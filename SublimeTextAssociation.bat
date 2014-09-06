@@ -44,10 +44,10 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	assoc .bbcode=SublimeTextFiles
 
 	:: Markdown
-	assoc .markdn=SublimeTextFiles
-	assoc .markdown=SublimeTextFiles
 	assoc .md=SublimeTextFiles
 	assoc .mdown=SublimeTextFiles
+	assoc .markdn=SublimeTextFiles
+	assoc .markdown=SublimeTextFiles
 
 	:: Git
 	assoc .gitignore=SublimeTextFiles
@@ -65,11 +65,11 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	assoc .css=SublimeTextFiles
 	assoc .js=SublimeTextFiles
 	assoc .json=SublimeTextFiles
-	assoc .less=SublimeTextFiles
 	assoc .svg=SublimeTextFiles
+	assoc .less=SublimeTextFiles
+	assoc .twig=SublimeTextFiles
 	assoc .sass=SublimeTextFiles
 	assoc .scss=SublimeTextFiles
-	assoc .twig=SublimeTextFiles
 
 	:: Web developpement (Back)
 	assoc .phar=SublimeTextFiles
