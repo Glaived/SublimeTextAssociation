@@ -70,6 +70,9 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	:: Template engine (Front)
 	assoc .twig=SublimeTextFiles
 
+	:: Web development (Pre-Proc HTML)
+	assoc .jade=SublimeTextFiles
+
 	:: Web development (Pre-Proc CSS)
 	assoc .less=SublimeTextFiles
 	assoc .sass=SublimeTextFiles
