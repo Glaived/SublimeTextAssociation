@@ -9,7 +9,6 @@ setlocal enabledelayedexpansion
 set pathToSublimeTextExe=YOUR_VALUE
 
 
-
 if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	ftype SublimeTextFiles=
 
@@ -99,9 +98,10 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	echo.
 	echo pathToSublimeTextExe variable is not defined
 	echo or the path to the executable of Sublime Text is incorrect.
-	echo.
 	if defined pathToSublimeTextExe (
-		echo pathToSublimeTextExe: !pathToSublimeTextExe!
+		echo.
+		echo pathToSublimeTextExe:
+		echo !pathToSublimeTextExe!
 	)
 	echo.
 	pause
