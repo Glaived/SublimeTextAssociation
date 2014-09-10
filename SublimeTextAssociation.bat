@@ -64,11 +64,15 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 
 	:: Web development (Front)
 	assoc .css=SublimeTextFiles
+	assoc .htm=SublimeTextFiles
+	assoc .html=SublimeTextFiles
 	assoc .js=SublimeTextFiles
 	assoc .json=SublimeTextFiles
 	assoc .svg=SublimeTextFiles
 
 	:: Template engine (Front)
+	assoc .ctp=SublimeTextFiles
+	assoc .haml=SublimeTextFiles
 	assoc .twig=SublimeTextFiles
 
 	:: Web development (Pre-Proc HTML)
@@ -82,6 +86,7 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	:: Web developpement (Back)
 	assoc .phar=SublimeTextFiles
 	assoc .php=SublimeTextFiles
+	assoc .rb=SublimeTextFiles
 	assoc .sql=SublimeTextFiles
 
 	echo.
