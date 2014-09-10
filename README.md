@@ -18,3 +18,7 @@ With SublimeTextAssociation, you can associate a file extension (e.g. `.txt`) to
 Now, you can customize the associations, by default, they will all be launched, if you do not want an association, add `::` beginning of the line on the file extension not want.
 
 * Save and run the script `SublimeTextAssociation.bat` (If message advertissements appear, accept)
+
+## Contribute
+
+You can find the rules in [CONTRIBUTING.md](https://github.com/Glaived/SublimeTextAssociation/blob/master/CONTRIBUTING.md).

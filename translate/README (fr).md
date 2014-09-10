@@ -18,3 +18,7 @@ Grâce à SublimeTextAssociation, vous allez pouvoir associer une extension de f
 Vous pouvez à présent personnalisez les associations, par défaut, elles seront toutes lancées, si vous ne souhaitez pas une association, ajoutez `::` en début de ligne, sur l'extension de fichier non désirez.
 
 * Sauvegardez, et lancez le script `SublimeTextAssociation.bat` (Si des message d'advertissements aparaissent, acceptez les)
+
+## Contribuer
+
+Vous trouverez les règles dans [CONTRIBUTING.md](https://github.com/Glaived/SublimeTextAssociation/blob/master/CONTRIBUTING.md).
