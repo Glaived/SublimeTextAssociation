@@ -21,6 +21,7 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	assoc .ini=SublimeTextFiles
 	assoc .log=SublimeTextFiles
 	assoc .txt=SublimeTextFiles
+	assoc .bak=SublimeTextFiles
 
 	:: Sublime Text
 	assoc .sublime-build=SublimeTextFiles
