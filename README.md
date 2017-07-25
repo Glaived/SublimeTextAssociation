@@ -1,7 +1,5 @@
 # SublimeTextAssociation
 
-![Version](http://img.shields.io/badge/Version-pre--release-green.svg?style=flat-square) ![Compatible versions](http://img.shields.io/badge/Windows->=W2000-lightgrey.svg?style=flat-square)
-
 [![GitHub (pre-)release](https://img.shields.io/github/release/glaived/SublimeTextAssociation/all.svg?style=flat-square)]() ![Compatible version](http://img.shields.io/badge/Windows->=W2000-lightgrey.svg?style=flat-square) [![license](https://img.shields.io/github/license/glaived/SublimeTextAssociation.svg?style=flat-square)]() [![Github All Releases](https://img.shields.io/github/downloads/glaived/SublimeTextAssociation/total.svg?style=flat-square)]()
 
 Link your file extensions to Sublime Text easily !
