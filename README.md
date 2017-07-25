@@ -10,7 +10,7 @@ SublimeTextAssociation can associate a file extension (e.g. `.txt`) to your Subl
 ## Installation
 
 1. Download `SublimeTextAssociation.bat` file from [the lasted release](https://github.com/Glaived/SublimeTextAssociation/releases/latest).
-2. Edit the `SublimeTextAssociation.bat` file and replace `YOUR_VALUE` by the path that points to the executable `sublime_text.exe`, e.g. `C:\Program Files (x86)\Sublime Text 2\sublime_text.exe`.
+2. Edit the `SublimeTextAssociation.bat` file and replace `YOUR_VALUE` by the path that points to the executable `sublime_text.exe`, e.g. `C:\Program Files\Sublime Text 3\sublime_text.exe`.
 3. Now, you can customize the associations, by default, they will all be launched, if you do not want an association, add `::` beginning of the line on the file extension not want.
 4. Save and run the `SublimeTextAssociation.bat` file (If message advertissements appear, accept)
 
