@@ -64,11 +64,11 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 
 	:: Web development (Front)
 	assoc .css=SublimeTextFiles
-	assoc .htm=SublimeTextFiles
-	assoc .html=SublimeTextFiles
+	:: assoc .htm=SublimeTextFiles
+	:: assoc .html=SublimeTextFiles
 	assoc .js=SublimeTextFiles
 	assoc .json=SublimeTextFiles
-	assoc .svg=SublimeTextFiles
+	:: assoc .svg=SublimeTextFiles
 
 	:: Template engine (Front)
 	assoc .ctp=SublimeTextFiles
@@ -99,14 +99,17 @@ if defined pathToSublimeTextExe if exist "%pathToSublimeTextExe%" (
 	echo.
 	echo pathToSublimeTextExe variable is not defined
 	echo or the path to the executable of Sublime Text is incorrect.
+
 	if defined pathToSublimeTextExe (
 		echo.
 		echo pathToSublimeTextExe:
 		echo !pathToSublimeTextExe!
 	)
+
 	echo.
 	pause
 	cls
+
 	goto top
 )
 
